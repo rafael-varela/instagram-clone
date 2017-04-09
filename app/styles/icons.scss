@@ -1,0 +1,73 @@
+.icon {
+  display: block;
+  overflow: hidden;
+  text-indent: 110%;
+  white-space: nowrap;
+}
+
+.sprite {
+  background-image: url(../images/sprites.png);
+  background-repeat: no-repeat;
+}
+
+.explore-icon {
+  @extend .sprite;
+  background-position: -290px -272px;
+  height: 24px;
+  width: 24px;
+}
+
+.heart-icon {
+  @extend .sprite;
+  background-position: -238px -272px;
+  height: 24px;
+  width: 24px;
+}
+
+.profile-icon {
+  @extend .sprite;
+  background-position: -78px -322px;
+  height: 24px;
+  width: 24px;
+}
+
+@media (max-width: 735px) {
+  .video-icon {
+    background-image: url(../images/sprites.png);
+    background-repeat: no-repeat;
+    background-position: -232px -223px;
+    height: 30px;
+    width: 30px;
+  }
+}
+
+@media (min-width: 736px) {
+  .video-icon {
+    background-image: url(../images/sprites.png);
+    background-repeat: no-repeat;
+    background-position: 0 -272px;
+    height: 48px;
+    width: 48px;
+  }
+}
+
+.play-icon {
+  @extend .sprite;
+  background-position: -355px -134px;
+  height: 19px;
+  width: 19px;
+}
+
+.speech-icon {
+  @extend .sprite;
+  background-position: -355px -92px;
+  height: 19px;
+  width: 19px;
+}
+
+.likes-icon {
+  @extend .sprite;
+  background-position: -355px -113px;
+  height: 19px;
+  width: 19px;
+}

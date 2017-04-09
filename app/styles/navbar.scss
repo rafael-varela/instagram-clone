@@ -1,0 +1,92 @@
+.navbar-wrapper {
+  background-color: #fff;
+  border-bottom: 1px solid rgba(0,0,0,.0975);
+  height: 77px;
+  padding: 26px 40px;
+  margin: 0;
+}
+
+.logo-container {
+  overflow: hidden;
+}
+
+.ig-logo {
+  @extend .sprite;
+  background-position: -177px 0;
+  height: 35px;
+  width: 176px;
+}
+
+.searchbar-container {
+  width: 215px;
+  height: 28px;
+  position: relative;
+}
+
+.searchbar {
+  border: solid 1px #dbdbdb;
+  border-radius: 3px;
+  color: #262626;
+  font-size: 14px;
+  outline: none;
+  padding: 3px 10px 3px 26px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.buttons-container {
+  .icon {
+   float: right;
+  }
+}
+
+.search-box {
+  background: #fff;
+  border: solid 1px #e6e6e6;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0,0,0,.0975);
+  left: 50%;
+  margin-left: -121px;
+  position: absolute;
+  right: -12px;
+  top: 40px;
+  width: 243px;
+  z-index: 199;
+}
+
+.search-results {
+  font-size: 14px;
+  max-height: 362px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 0;
+  -webkit-overflow-scrolling: touch;
+
+  .row {
+    height: 50px;
+    border-bottom: solid 1px #dbdbdb;
+    padding: 8px 14px;
+    cursor: pointer;
+  }
+
+  img {
+    height: 100%;
+    border-radius: 50%;
+  }
+
+  h1, span {
+    margin: 0;
+    font-size: 14px;
+  }
+
+  h1 {
+    color: #262626;
+    font-size: 600;
+  }
+
+  span {
+    font-weight: 300;
+    color: #999;
+  }
+}
